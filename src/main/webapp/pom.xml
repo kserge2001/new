@@ -18,8 +18,14 @@
   <build>
     <finalName>${project.artifactId}</finalName>
 
+
   </build>
 
+	  <plugin>
+          <groupId>org.mortbay.jetty</groupId>
+          <artifactId>jetty-maven-plugin</artifactId>
+          <version>8.0.0.M1</version>
+        </plugin>
   <dependencies>
 
     <dependency>
